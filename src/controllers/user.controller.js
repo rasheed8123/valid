@@ -3,7 +3,7 @@ const app = express();
 const users = require("../models/user.model")
 
 const { body, validationResult } = require('express-validator');
-
+// console.log(happy just checking)
 app.get("",
 async(req,res)=>{
     try{
